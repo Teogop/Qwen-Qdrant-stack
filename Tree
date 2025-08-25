@@ -1,0 +1,15 @@
+rag-stack/
+  README.md
+  .gitignore
+  config/settings.yaml
+  ingest/ingest.py
+  app/app.py
+  app/requirements.txt
+  ingest/requirements.txt
+  scripts/docker_qdrant.sh
+  scripts/setup_venvs.sh
+  systemd/qwen3-7b.service
+  systemd/qwen3-14b.service
+  systemd/rag-app.service
+  systemd/rag-ingest.service
+  systemd/ingest. Timer
