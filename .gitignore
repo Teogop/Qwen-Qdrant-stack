@@ -1,1 +1,22 @@
+cat > .gitignore <<'EOF'
+# Python
+__pycache__/
+*.pyc
+.venv*/
+env*/
+*.log
 
+# Venvs we create
+app/.venv/
+ingest/.venv/
+
+# Local data
+.qdrant/
+.qdrant_data/
+docs/
+config/*.local.yaml
+
+# OS/editor
+.DS_Store
+*.swp
+EOF
