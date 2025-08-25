@@ -1,5 +1,0 @@
-# choose a root; we'll use /mnt/qwen3
-cd /mnt/qwen3
-mkdir -p rag-stack/{app,ingest,config,scripts,systemd,docs}
-cd rag-stack
-
